@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: title;
-  src: url(./fonts/Equinox_Bold.otf);
+  src: url(../fonts/Equinox_Bold.otf);
 }
 
 html,
 body {
   height: 100%;
   margin: 0;
-  background: url(./media/1322435-old-man-of-storr-isle-of-skye.jpg) no-repeat bottom fixed;
+  background: url(../media/1322435-old-man-of-storr-isle-of-skye.jpg) no-repeat bottom fixed;
   background-size: cover;
   font-family: "Title", sans-serif;
   font-size: 1.3rem;

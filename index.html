@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Free flow</title>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load Posenet -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    <!-- Load the script file-->
+    <script src="./src/index.js" defer></script>
+    <!-- Load the style sheet -->
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <img src="./media/balloon.png" alt="hot_air_balloon" />
+      <!-- the start message -->
+      <div class="text">
+        <h1>Free Flow</h1>
+        <p>Put your hand up &#9995</p>
+      </div>
+      <!-- webcam and canvas elements -->
+      <div class="camera">
+        <div id="info" style="display: none;"></div>
+        <video id="video" playsinline style="display: none;"></video>
+        <canvas id="output" style="display: none;"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
